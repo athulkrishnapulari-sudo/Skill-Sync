@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Sync</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <a id="nav_brand" href="#">
+            <div id="logo">S</div>
+            <h2>Skill Sync</h2>
+        </a>
+        <ul id="navlinks">
+            <li class="link"><a href="">Features</a></li>
+            <li class="link"><a href="">Templates</a></li>
+            <li class="link"><a href="">How it Works</a></li>
+            <li class="link"><a href="">About</a></li>
+        </ul>
+        <button class="nav_btn">Create Resume</button>
+    </nav>
+
+    <!-- navbar -->
+
+    <!-- home -->
+
+    <section id="home">
+        <div id="home_back"></div>
+        <div id="back_overlay1"></div>
+        <div id="back_overlay2"></div>
+        <div id="back_overlay3"></div>
+        <div id="home_main">
+            <div id="home_left">
+                <div class="home_line1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-sparkles"
+                        data-fg-d3bl40="0.8:1.53871:/src/app/App.tsx:289:15:10796:22:e:Sparkles::::::DD2N"
+                        data-fgid-d3bl40=":rm:">
+                        <path
+                            d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z">
+                        </path>
+                        <path d="M20 3v4"></path>
+                        <path d="M22 5h-4"></path>
+                        <path d="M4 17v2"></path>
+                        <path d="M5 18H3"></path>
+                    </svg>AI-Powered Resume Optimization
+                </div>
+                <h1 class="home_head" style="color: rgb(17, 24, 39)">
+                    Stop Getting
+                    <span class="relative inline-block" style="
+                background: linear-gradient(
+                    135deg,
+                    rgb(79, 70, 229),
+                    rgb(124, 58, 237),
+                    rgb(6, 182, 212)
+                  )
+                  text;
+                -webkit-text-fill-color: transparent;
+              ">Rejected by ATS.</span><br />Build a Resume
+                    <span style="color: rgb(79, 70, 229)">Recruiters</span> Actually
+                    See.
+                </h1>
+                <p class="home_para">
+                    Create a professional ATS-friendly resume in minutes. Analyze ATS
+                    score, optimize keywords, match job descriptions, and download
+                    polished resumes ready for hiring managers.
+                </p>
+                <div class="homeBtnsContainer">
+                    <button class="createResumebtn">
+                        Create Resume&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </button>
+                    <button class="seeTemplatesBtn">
+                        See Templates&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="home_right">
+                <div class="home_card1">
+                    <div class="header">
+                        <div class="avatar">AJ</div>
+                        <div>
+                            <p class="name">Alex Johnson</p>
+                            <p class="role">Senior Product Designer</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-container">
+                        <div class="stat">
+                            <div class="label-row">
+                                <span class="label">Experience</span>
+                                <span class="value">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <div class="label-row">
+                                <span class="label">Skills</span>
+                                <span class="value">75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="stat">
+                            <div class="label-row">
+                                <span class="label">Education</span>
+                                <span class="value">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Product Strategy</span>
+                        <span class="tag">UX</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">A/B Testing</span>
+                    </div>
+                </div>
+                <div class="keyword-match-card">
+                    <div class="header">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#06B6D4" stroke-width="2">
+                            <path
+                                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                            </path>
+                        </svg>
+                        <p class="title">Keyword Match</p>
+                        <span class="percentage">87%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 87%;"></div>
+                    </div>
+
+                    <div class="tags">
+                        <span class="tag checked">✓ Leadership</span>
+                        <span class="tag checked">✓ Agile</span>
+                        <span class="tag checked">✓ SQL</span>
+                        <span class="tag checked">✓ Python</span>
+                        <span class="tag missing">+ 3 missing</span>
+                    </div>
+                </div>
+                <div class="ats-card">
+                    <p class="label">ATS Score</p>
+
+                    <div class="progress-circle-container">
+                        <div class="progress-circle">
+                            <svg viewBox="0 0 120 120" class="progress-svg">
+                                <circle cx="60" cy="60" r="54" class="bg-circle" />
+                                <circle cx="60" cy="60" r="54" class="progress-indicator" />
+                                <defs>
+                                    <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" stop-color="#4F46E5" />
+                                        <stop offset="100%" stop-color="#06B6D4" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="text-content">
+                                <span class="score">94</span>
+                                <span class="total">/100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="status-badge">Excellent Match</div>
+                </div>
+                <div class="resume-strength-card">
+                    <p class="label">Resume Strength</p>
+
+                    <div class="bar-chart">
+                        <div class="bar" style="height: 40%;"></div>
+                        <div class="bar" style="height: 55%;"></div>
+                        <div class="bar" style="height: 45%;"></div>
+                        <div class="bar" style="height: 70%;"></div>
+                        <div class="bar active" style="height: 65%;"></div>
+                        <div class="bar active" style="height: 85%;"></div>
+                        <div class="bar highlight" style="height: 94%;"></div>
+                    </div>
+
+                    <p class="growth-text">↑ +54 pts this week</p>
+                </div>
+                <div class="ai-suggestion-card">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2">
+                        <path
+                            d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z">
+                        </path>
+                        <path d="M20 3v4"></path>
+                        <path d="M22 5h-4"></path>
+                        <path d="M4 17v2"></path>
+                        <path d="M5 18H3"></path>
+                    </svg>
+                    <div class="text-content">
+                        <p class="title">AI Suggestion</p>
+                        <p class="subtitle">Add 3 impact metrics to boost score</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home -->
+</body>
+
+</html>
