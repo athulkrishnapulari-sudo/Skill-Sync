@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #FAFAFC;
+    background-color: #fff;
     color: #111827;
     font-family: "Plus Jakarta Sans", sans-serif;
     user-select: none;
@@ -666,6 +666,7 @@ a {
     margin-inline: auto;
     padding-block: 64px;
     padding-inline: 24px;
+
 }
 
 .trustContainer {
@@ -718,7 +719,7 @@ a {
     margin: 0 auto;
 }
 
-/* Header */
+
 .section-header {
     text-align: center;
     margin-bottom: 64px;
@@ -744,11 +745,6 @@ a {
     margin-bottom: 16px;
 }
 
-.title span {
-    background: linear-gradient(135deg, rgb(79, 70, 229), rgb(124, 58, 237));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .featuresubtitle {
     font-size: 1.125rem;
@@ -810,4 +806,193 @@ a {
     font-size: 0.875rem;
     line-height: 1.6;
     color: #6b7280;
+}
+
+
+
+
+
+
+
+.template-section {
+    padding: 6rem 1.5rem;
+    font-family: sans-serif;
+}
+
+.template-container {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.template-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.template-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.375rem 1rem;
+    border-radius: 9999px;
+    background: rgba(79, 70, 229, 0.08);
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+
+.template-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin: 0 0 1rem 0;
+}
+
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.template-card {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: white;
+    border: 1px solid rgba(79, 70, 229, 0.12);
+    box-shadow: 0 4px 20px rgba(79, 70, 229, 0.06);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.template-card:hover {
+    transform: translateY(-8px);
+}
+
+.template-tag-popular {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.25rem 0.6rem;
+    border-radius: 9999px;
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+    color: white;
+    z-index: 10;
+}
+
+.template-preview {
+    height: 14rem;
+    background: linear-gradient(135deg, #eef2ff, #f3e8ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.template-preview-box {
+    width: 85%;
+    height: 80%;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.template-avatar-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(79, 70, 229, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.template-avatar {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.template-lines-mini {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.template-line-short {
+    height: 0.5rem;
+    width: 4rem;
+    border-radius: 9999px;
+    background: #e5e7eb;
+}
+
+.template-line-micro {
+    height: 0.375rem;
+    width: 2.5rem;
+    border-radius: 9999px;
+    background: #eef2ff;
+}
+
+.template-line {
+    height: 0.375rem;
+    border-radius: 9999px;
+    background: #f3f4f6;
+}
+
+.template-body {
+    padding: 1.25rem;
+}
+
+.template-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.template-card-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #111827;
+    margin: 0;
+}
+
+.template-ats-score {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 9999px;
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+}
+
+.template-description {
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-bottom: 1.25rem;
+}
+
+.template-btn {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 1.5px solid rgba(79, 70, 229, 0.3);
+    color: #4f46e5;
+    background: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.template-card:hover .template-btn {
+    background: #4f46e5;
+    color: white;
+    border-color: #4f46e5;
 }
